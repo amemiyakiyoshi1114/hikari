@@ -36,7 +36,7 @@ public class UserInfoServiceImpl implements UserInfoService {
         if(loginUser == null){
             return CommonResponse.createForError("maybe something wrong with your username");
         }
-        boolean checkPassword = bCryptPasswordEncoder.matches(password, bCryptPasswordEncoder.encode(loginUser.getPassword()));//在比较的时候用bCryptPasswordEncoder.encode再加密一遍，不然会出现Encoded password does not look like BCrypt的异常
+        boolean checkPassword = bCryptPasswordEncoder.matches(password,loginUser.getPassword());
         loginUser.setPassword(StringUtils.EMPTY);
         return checkPassword?CommonResponse.createForSuccess(loginUser):CommonResponse.createForError("maybe something wrong with your password");
     }
