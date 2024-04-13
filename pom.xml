@@ -74,6 +74,11 @@
 			<artifactId>caffeine</artifactId>
 		</dependency>
 
+<!--		gson for jenkins URL-->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>

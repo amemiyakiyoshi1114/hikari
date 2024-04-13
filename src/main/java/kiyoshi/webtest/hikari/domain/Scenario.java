@@ -9,8 +9,9 @@ public class Scenario {
     private String username;
     private String projectName;
     private String scenarioName;
-    private String githubRepositoryURL;
+    private String githubRepositoryUrl;
     private String branch;
+    private String credentialsId;
     private String testClass;
 
     private Integer id;

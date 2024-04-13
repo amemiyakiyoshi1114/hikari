@@ -16,7 +16,7 @@ public class CONSTANT {
     public enum AdministrationStatus{//调度状态
 
         MOTIONLESS(1,"MOTIONLESS"),
-        MOTIVATE(2,"motivate");
+        MOTIVATE(2,"MOTIVATE");
 
 
         private final int code;
@@ -49,12 +49,7 @@ public class CONSTANT {
     public static final String ORDER_BY_CREATE_TIME = "create_time";
     public static final String ORDER_BY_UPDATE_TIME = "update_time";
 
-    public interface CART{
-        int CHECKED = 1;
-        int UNCHECKED = 2;
-    }
-
-
+    public static final String POST_JENKINS_SERVER = "http://100.64.240.27:8080/";
 
 
 

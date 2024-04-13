@@ -10,6 +10,8 @@ public class Administration {
     private String projectName;
     private String scenarioName;
     private String AdministrationName;
+    private Integer times;
+    private Integer state;
 
     private Integer id;
     private LocalDateTime createTime;

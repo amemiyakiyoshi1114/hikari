@@ -10,6 +10,8 @@ public class Report {
     private String projectName;
     private String scenarioName;
     private String administrationName;
+    private String reportName;
     private Integer id;
     private LocalDateTime createTime;
+    private Integer jenkinsId;
 }

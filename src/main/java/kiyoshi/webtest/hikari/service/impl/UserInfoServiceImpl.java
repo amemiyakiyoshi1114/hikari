@@ -73,6 +73,7 @@ public class UserInfoServiceImpl implements UserInfoService {
 
         userInfo.setCreateTime(LocalDateTime.now());
         userInfo.setUpdateTime(LocalDateTime.now());
+        userInfo.setTotalAdministrateTimes(0);
 
         int rows = userInfoMapper.insert(userInfo);
         if(rows == 0){

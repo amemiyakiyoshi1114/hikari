@@ -13,6 +13,7 @@ public class UserInfo {
     private String username;
     private String password;
     private String JenkinsWorkspace;
+    private Integer totalAdministrateTimes;
 
     private LocalDateTime createTime;//为什么不用Date类呢？
     private LocalDateTime updateTime;
