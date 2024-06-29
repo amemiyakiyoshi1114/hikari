@@ -7,6 +7,8 @@ This is part of my graduation project and dissertation. It is for study and comm
 ![image](https://github.com/amemiyakiyoshi1114/hikari/assets/72334251/14c7106f-95ab-4796-9c7c-3014610158c8)
 ## Platform architecture
 ![image](https://github.com/amemiyakiyoshi1114/hikari/assets/72334251/351eb359-c111-41b1-9ca0-f4e94ae60452)
+## front-end 
+see https://github.com/amemiyakiyoshi1114/hikaru.git
 
 # environment and configuration
 java17 + maven + springboot3 + mybatisplus + mvc + mysql8
